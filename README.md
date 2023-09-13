@@ -15,5 +15,5 @@ top-10-qqq> main.py --target 100000
 7          GOOG   0.064090                 136.07                          47    6395.29
 8          AVGO   0.060538                 844.52                           7    5911.64
 9          ADBE   0.042775                 542.21                           7    3795.47
-Total value of top 10 holdings based on share alloc: $98284.61
+Total: $98284.61
 ```

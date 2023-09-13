@@ -37,5 +37,5 @@ df['Total_Buy'] = df['MarketValue_per_Share'] * df['Shares_to_Hit_Target_Alloc']
 print(df[['Holding Ticker', 'Weight', 'MarketValue_per_Share', 'Shares_to_Hit_Target_Alloc', 'Total_Buy']])
 
 total = (df['MarketValue_per_Share'] * df['Shares_to_Hit_Target_Alloc']).sum()
-print(f"Total value of top {n} holdings based on share alloc: ${total}")
+print(f"Total: ${total}")
 
