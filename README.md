@@ -3,7 +3,7 @@ Target allocation for strategy that holds top 10 QQQ constituents.
 Based on https://twitter.com/gokulr/status/1680006171149869056
 
 ```python
-pa@pax ~/s/top-10-qqq> main.py --target 100000
+top-10-qqq> main.py --target 100000
   Holding Ticker    Weight  MarketValue_per_Share  Shares_to_Hit_Target_Alloc  Total_Buy
 0          AAPL   0.222344                 176.30                         126   22213.80
 1          MSFT   0.197786                 331.77                          59   19574.43
